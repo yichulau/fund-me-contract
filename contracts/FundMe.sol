@@ -76,7 +76,7 @@ contract FundMe {
         // reset the array
         funders = new address[](0);
         // withdraw the funds
-        // transfer
+        // transferhello
         // payable(msg.sender).transfer(address(this).balance);
         // call
         (bool callSuccess, ) = payable(msg.sender).call{
